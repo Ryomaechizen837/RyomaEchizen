@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 20px;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 24px;
+  color: #0077cc;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0077cc;
+  color: white;
+}
